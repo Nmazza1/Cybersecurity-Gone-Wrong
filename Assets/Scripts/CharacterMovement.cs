@@ -17,8 +17,9 @@ public class CharacterMovement : MonoBehaviour
     float moveType; // Current speed used, changes if holding sprint or not
 
     [SerializeField]
-    Transform groundCheck;
+    Transform groundCheck, wallCheck;
     float groundDistance = 0.4f;
+    float wallDistance = 1;
 
     [SerializeField]
     LayerMask groundMask;
@@ -26,6 +27,8 @@ public class CharacterMovement : MonoBehaviour
     Vector3 velocity;
     float gravity = -9.81f * 2; // Change second value to determine fall speed
     bool isGrounded;
+    bool isOnWall;
+    bool hasJumped =false;
     float jumpHeight = 3;
 
     private void Start()
@@ -37,16 +40,24 @@ public class CharacterMovement : MonoBehaviour
     {
         // Checks if char. is grounded, resets velocity if so
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        isOnWall = Physics.CheckSphere(wallCheck.position, wallDistance, groundMask);
 
         if(isGrounded && velocity.y < 0)
         {
-            velocity.y = -1;
+            velocity.y = 0;
+            hasJumped = false;
         }
 
         // Jump Key
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.Space) && isGrounded) || (Input.GetKeyDown(KeyCode.Space) && isOnWall && !hasJumped))
         {
+            if(isOnWall)
+            {
+                velocity.y = Mathf.Sqrt((jumpHeight *2) * -1f * gravity);
+                hasJumped = true;
+            }
             velocity.y = Mathf.Sqrt(jumpHeight * -1f * gravity);
+            
         }
 
         // Sprint Key
