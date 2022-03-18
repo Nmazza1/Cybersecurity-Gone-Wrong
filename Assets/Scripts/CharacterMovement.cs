@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField]
     CharacterController plyController;
+
+    [SerializeField]
+    Text healthtxt, staminatxt;
 
     [SerializeField]
     Camera plyCam;
@@ -28,8 +32,11 @@ public class CharacterMovement : MonoBehaviour
     float gravity = -9.81f * 2; // Change second value to determine fall speed
     bool isGrounded;
     bool isOnWall;
+    bool isRunning;
     bool hasJumped =false;
+    bool hasStamina = true;
     float jumpHeight = 3;
+    float stamina = 5;
 
     private void Start()
     {
@@ -41,6 +48,7 @@ public class CharacterMovement : MonoBehaviour
         // Checks if char. is grounded, resets velocity if so
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         isOnWall = Physics.CheckSphere(wallCheck.position, wallDistance, groundMask);
+        staminatxt.text = stamina.ToString();
 
         if(isGrounded && velocity.y < 0)
         {
@@ -60,13 +68,31 @@ public class CharacterMovement : MonoBehaviour
             
         }
 
-        // Sprint Key
-        if (Input.GetKey(KeyCode.LeftShift))
+        // Sprint Key with working stamina
+        if (Input.GetKey(KeyCode.LeftShift) && hasStamina)
         {
+            isRunning = true;
             moveType = runSpeed;
+            stamina -= Time.deltaTime;
+            if (stamina <= 0)
+            {
+                moveType = walkSpeed;
+                hasStamina = false;
+              //  Debug.Log("No Stamina");
+            } 
         }
         else
+        {
             moveType = walkSpeed;
+            isRunning = false;
+        }
+
+        if ((stamina < 5 || stamina == 0) && (!isRunning && isGrounded))
+        {
+            stamina += Time.deltaTime;
+            hasStamina = true;
+         //  Debug.Log("Regen Stamina");
+        }
 
         // Change Player speed if crouched
         if (plyCam.transform.localPosition.y < 0.684)
