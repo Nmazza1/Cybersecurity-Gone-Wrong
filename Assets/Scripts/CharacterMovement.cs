@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField]
     CharacterController plyController;
 
     [SerializeField]
-    Text healthtxt, staminatxt;
+    TextMeshProUGUI staminatxt;
+    
 
     [SerializeField]
     Camera plyCam;
@@ -65,7 +66,7 @@ public class CharacterMovement : MonoBehaviour
         // Checks if char. is grounded, resets velocity if so
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         isOnWall = Physics.CheckSphere(wallCheck.position, wallDistance, groundMask);
-        staminatxt.text = stamina.ToString();
+        staminatxt.text = "Stamina: " + Mathf.RoundToInt(stamina).ToString();
 
         if (isGrounded && velocity.y < 0)
         {

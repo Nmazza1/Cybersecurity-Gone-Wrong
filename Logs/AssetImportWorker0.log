@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16121 MB
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 32691 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Mohit/Documents/GitHub/FinalProject
+C:/Users/nicho/OneDrive/Documents/Unity Projects/FinalProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65351
-Successfully changed project path to: C:/Users/Mohit/Documents/GitHub/FinalProject
-C:/Users/Mohit/Documents/GitHub/FinalProject
+56059
+Successfully changed project path to: C:/Users/nicho/OneDrive/Documents/Unity Projects/FinalProject
+C:/Users/nicho/OneDrive/Documents/Unity Projects/FinalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,104 +47,104 @@ C:/Users/Mohit/Documents/GitHub/FinalProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 31.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Mohit/Documents/GitHub/FinalProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nicho/OneDrive/Documents/Unity Projects/FinalProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Microsoft Basic Render Driver (ID=0x8c)
-    Vendor:   Microsoft
-    VRAM:     8060 MB
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.7196
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010876 seconds.
+Registered in 0.007891 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  0.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (949ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (732ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (523ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (185ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004870 seconds.
+Registered in 0.003599 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.337 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2338ms)
-		BeginReloadAssembly (382ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1482ms)
-			LoadAssemblies (309ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (533ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (578ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (269ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (196ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Failed to load shader (instanceID 390, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (56.6 KB). Loaded Objects now: 1647.
-Memory consumption went from 58.5 MB to 58.5 MB.
-Total: 3.257300 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.870600 ms  DeleteObjects: 0.123000 ms)
+Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (88.0 KB). Loaded Objects now: 2005.
+Memory consumption went from 70.5 MB to 70.4 MB.
+Total: 2.969700 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.615000 ms  DeleteObjects: 0.124500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,7 +158,787 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6403.921001 seconds.
+  Time since last request: 1214782.912041 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(0f13c2aacf04d9040b2c1130efb4ed50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(0f13c2aacf04d9040b2c1130efb4ed50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe4d012b7f21c60aa70f24caa2f35da') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.036802 seconds.
+  path: Assets/Scripts/CharacterMovement.cs
+  artifactKey: Guid(0381d8475e6d271448b8210fef1bb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterMovement.cs using Guid(0381d8475e6d271448b8210fef1bb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b953981ad261996990e49cddf93fe9') in 0.028393 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003089 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (56.0 KB). Loaded Objects now: 2008.
+Memory consumption went from 70.4 MB to 70.3 MB.
+Total: 2.611500 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.034200 ms MarkObjects: 2.318400 ms  DeleteObjects: 0.091500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.198238 seconds.
+  path: Assets/FP Player.prefab
+  artifactKey: Guid(036a1c6b84e8ca246bb09c3938de7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FP Player.prefab using Guid(036a1c6b84e8ca246bb09c3938de7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3a42446b09f311924cb7b3f90a7eb5') in 0.096752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.070012 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(baf5bf1b8d474de41a251fd7586cb663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(baf5bf1b8d474de41a251fd7586cb663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353b11b0e5c40c3a2dd6099311a6ce41') in 0.007269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403854 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa49f758a8543fc917d5dc53afabcc') in 0.008227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (55.9 KB). Loaded Objects now: 2019.
+Memory consumption went from 74.4 MB to 74.4 MB.
+Total: 4.195300 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.649700 ms  DeleteObjects: 0.122500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (55.8 KB). Loaded Objects now: 2022.
+Memory consumption went from 74.4 MB to 74.4 MB.
+Total: 7.186700 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.133400 ms MarkObjects: 6.725100 ms  DeleteObjects: 0.139900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96.456625 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6907da26ef27d65448f1183d66d9912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6907da26ef27d65448f1183d66d9912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e758e6f2948ad144901dcd8435d75') in 0.009643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.771452 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(c6f2dedd6f6e21e4a8598f133cf482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(c6f2dedd6f6e21e4a8598f133cf482d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58567ff074e9a0ed24bca1cf57e5d056') in 0.007170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.631016 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(d205162de22b84a48a311cee96830aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(d205162de22b84a48a311cee96830aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2702821973180059bc8f0d1174f0c959') in 0.015790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.857144 seconds.
+  path: Assets/EasyMainMenu/Icon.jpg
+  artifactKey: Guid(9331513e88730414caa7e0e91591b5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyMainMenu/Icon.jpg using Guid(9331513e88730414caa7e0e91591b5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f079d2f0cdafbdd14128f67d8bd3820') in 0.064840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.582066 seconds.
   path: Assets/iPoly3D/The City Ruins/Demo
   artifactKey: Guid(8102c160b9799a14d9021b74c16b8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/The City Ruins/Demo using Guid(8102c160b9799a14d9021b74c16b8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7920e5701191c5fc83a95f3aff74d34') in 0.055210 seconds 
+Start importing Assets/iPoly3D/The City Ruins/Demo using Guid(8102c160b9799a14d9021b74c16b8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f7355e8f0e129e52efbac58c38ea46') in 0.007442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.239710 seconds.
+  path: Assets/iPoly3D/The City Ruins/Demo/Showcase.unity
+  artifactKey: Guid(0624584118661d74893f422f9c57bac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Demo/Showcase.unity using Guid(0624584118661d74893f422f9c57bac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f045e40b5e5a81e7b20be88232807eed') in 0.007087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.804962 seconds.
+  path: Assets/iPoly3D/The City Ruins/Demo/Demo.unity
+  artifactKey: Guid(483166c07b0b0fc499982b55bb2db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Demo/Demo.unity using Guid(483166c07b0b0fc499982b55bb2db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c536fcdf0fcffb06ecbe9a1c0f4409') in 0.006958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.205633 seconds.
+  path: Assets/Materials/Brown.mat
+  artifactKey: Guid(6d9b4305717660c4c9ca93b99f042206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brown.mat using Guid(6d9b4305717660c4c9ca93b99f042206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bf2c893e8ea0645719d26c18e4bdfd') in 0.058473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(ae17c75ad6ab85f43aef99e7b02fc013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red.mat using Guid(ae17c75ad6ab85f43aef99e7b02fc013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394cb742895fb8539a26fdb32c1ff08c') in 0.013556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.677397 seconds.
+  path: Assets/Scenes/MainWorld.unity
+  artifactKey: Guid(483166c07b0b0fc499982b55bb2db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainWorld.unity using Guid(483166c07b0b0fc499982b55bb2db4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977334603b95bf180e2e6ea0822a99f3') in 0.006525 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 2059.
+Memory consumption went from 76.7 MB to 76.0 MB.
+Total: 2.837300 ms (FindLiveObjects: 0.164900 ms CreateObjectMapping: 0.032300 ms MarkObjects: 2.270700 ms  DeleteObjects: 0.368200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (564ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 2062.
+Memory consumption went from 76.7 MB to 76.0 MB.
+Total: 2.895200 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.034900 ms MarkObjects: 2.326500 ms  DeleteObjects: 0.359900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 247.398273 seconds.
+  path: Assets/Scripts/CharacterMovement.cs
+  artifactKey: Guid(0381d8475e6d271448b8210fef1bb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterMovement.cs using Guid(0381d8475e6d271448b8210fef1bb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cf544355508d1ba1d49672094c047e') in 0.005314 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002374 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 2065.
+Memory consumption went from 76.8 MB to 76.1 MB.
+Total: 3.175200 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.570200 ms  DeleteObjects: 0.375300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003255 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 2068.
+Memory consumption went from 76.8 MB to 76.1 MB.
+Total: 3.648500 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.965800 ms  DeleteObjects: 0.454400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 2071.
+Memory consumption went from 76.8 MB to 76.1 MB.
+Total: 2.962800 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 2.311000 ms  DeleteObjects: 0.390400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147.117594 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_1.prefab
+  artifactKey: Guid(f173dbb081affda449202465e9e74f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_1.prefab using Guid(f173dbb081affda449202465e9e74f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a593b892382d9aae200e309512146') in 0.110352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_23.prefab
+  artifactKey: Guid(9d089296262485c45a8969d7d9ae9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_23.prefab using Guid(9d089296262485c45a8969d7d9ae9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa178eb212f98a5f02f1d8d7f557bf28') in 0.028908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_24.prefab
+  artifactKey: Guid(c41e9f0d50927a1498518b65d1b8dac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_24.prefab using Guid(c41e9f0d50927a1498518b65d1b8dac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9903c9adcd71b4dcaa040d9a67dc001') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_7.prefab
+  artifactKey: Guid(539a3c6db70341344bff47c4bc85bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_7.prefab using Guid(539a3c6db70341344bff47c4bc85bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e4583ae8ee1c622e3e21c630efd01c') in 0.023140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_1.prefab
+  artifactKey: Guid(ea7b21290b2232f4ea2ce2fb0d3c37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_1.prefab using Guid(ea7b21290b2232f4ea2ce2fb0d3c37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feccbbbc4c2dd6fda5df1e90759aa009') in 0.022138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_15.prefab
+  artifactKey: Guid(28b4edef6af9e9041a87b4be16b31b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_15.prefab using Guid(28b4edef6af9e9041a87b4be16b31b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33074e355661c5025ac8f3e7b2497402') in 0.022367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_17.prefab
+  artifactKey: Guid(2ad9607eefcec7941b91063b48cda9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_17.prefab using Guid(2ad9607eefcec7941b91063b48cda9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed829525a1cadef2d1a27699f4cb0a') in 0.021587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_4.prefab
+  artifactKey: Guid(fd9771cfaec2a3944b600ce797c00d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_4.prefab using Guid(fd9771cfaec2a3944b600ce797c00d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd8b0269a66254f38e7fe6cb7c1c2c9') in 0.022694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_19.prefab
+  artifactKey: Guid(4d56d5e0d130ed74a98859c18b9ec0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_19.prefab using Guid(4d56d5e0d130ed74a98859c18b9ec0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0246d9649d7d2700ac4f9becc09e253') in 0.023798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_21.prefab
+  artifactKey: Guid(d739550c38cdeb5469e4089ced8fff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_21.prefab using Guid(d739550c38cdeb5469e4089ced8fff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778c31947e0c10766f67c674fef254f0') in 0.022127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_10.prefab
+  artifactKey: Guid(b479229b56655d9408aed7e0eb012c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_10.prefab using Guid(b479229b56655d9408aed7e0eb012c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58b1607cf22134d625787040d377ec') in 0.024594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_11.prefab
+  artifactKey: Guid(1cffc4291d5124a40a52beb4894e61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_11.prefab using Guid(1cffc4291d5124a40a52beb4894e61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c472bcf5569f70917d384109f09fb0') in 0.024311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_GRASS_2.prefab
+  artifactKey: Guid(fd071caca467cda40b353046a0d00590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_GRASS_2.prefab using Guid(fd071caca467cda40b353046a0d00590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86fbfa7e4899ac8a2c5833886a797e2') in 0.022904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_35.prefab
+  artifactKey: Guid(fdd145afdac3ecc4a854d69da7d0adca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_35.prefab using Guid(fdd145afdac3ecc4a854d69da7d0adca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc46a8ce83c6ba33fb7b4a09516a7b73') in 0.024520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_3.prefab
+  artifactKey: Guid(37569a9c9db0c9b408f35d417ee54f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_3.prefab using Guid(37569a9c9db0c9b408f35d417ee54f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dc30562d68aaa41d6ca8368a9e5f14') in 0.023053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_40.prefab
+  artifactKey: Guid(22a0f26d678f4064aacf059e09d69169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_40.prefab using Guid(22a0f26d678f4064aacf059e09d69169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2608e5c81e968391c1fc3a0e08e48bbe') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_4.prefab
+  artifactKey: Guid(2ae741f7a1cc09a429b7a23822568562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_4.prefab using Guid(2ae741f7a1cc09a429b7a23822568562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd290318492f44a9b26c5025c1dd4c35b') in 0.026219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_5.prefab
+  artifactKey: Guid(5bd9a6d381e3de846977994f1d850a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_5.prefab using Guid(5bd9a6d381e3de846977994f1d850a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a83574fa1084f60eb0bb42c6ff057e') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_25.prefab
+  artifactKey: Guid(94178fe60de1bb344869dafa78d2f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_25.prefab using Guid(94178fe60de1bb344869dafa78d2f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476dd0ebcb9233f49578bef0f7f30e42') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_41.prefab
+  artifactKey: Guid(3a1573120d52afb48805d0fe7ffba07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_41.prefab using Guid(3a1573120d52afb48805d0fe7ffba07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a2e8afc6c5b166d6f81884f3370ec3') in 0.020068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_31.prefab
+  artifactKey: Guid(4bc37cf6b899eeb4989f0d07ce330a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_31.prefab using Guid(4bc37cf6b899eeb4989f0d07ce330a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818bf57af96a3667d22a2377926b2599') in 0.019750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_26.prefab
+  artifactKey: Guid(6735d7d3e54831b4d92c912fe94eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_26.prefab using Guid(6735d7d3e54831b4d92c912fe94eac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554667b6c0f7293b0ee966b5f47a21cb') in 0.023750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_7.prefab
+  artifactKey: Guid(da56890d178abd84484e3c47ab581a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_7.prefab using Guid(da56890d178abd84484e3c47ab581a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846aabe21028183767fb2f7bc7f7292') in 0.020833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_18.prefab
+  artifactKey: Guid(452940b716d0c514ebbf5c9b441207c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_18.prefab using Guid(452940b716d0c514ebbf5c9b441207c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5ff5cfb9e729baee0ba386f9b083ba') in 0.022068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_12.prefab
+  artifactKey: Guid(a5b2ca5e1b305c647aea90b9fe38f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_12.prefab using Guid(a5b2ca5e1b305c647aea90b9fe38f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c5bf320e7b74685bcce9d636024ad3') in 0.028187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_22.prefab
+  artifactKey: Guid(7b46f271c6a67074daf9821edb267853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_22.prefab using Guid(7b46f271c6a67074daf9821edb267853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b65506e41bf24fe85d3d4a9bd202415') in 0.039593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_5.prefab
+  artifactKey: Guid(2c5437c246d0d574793dc531f5d65e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_5.prefab using Guid(2c5437c246d0d574793dc531f5d65e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb493ed9bca9f7444c72d2e7478fa92') in 0.022823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_9.prefab
+  artifactKey: Guid(e1fd9ece8c8e46046b7fcc4fc9e0fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_9.prefab using Guid(e1fd9ece8c8e46046b7fcc4fc9e0fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4bd8fcc41e9472bc9fdea9ecac04ba') in 0.022328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_45.prefab
+  artifactKey: Guid(857e868d0c24df743907a9a01ef4c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_45.prefab using Guid(857e868d0c24df743907a9a01ef4c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b1f0d363dfdc526b0013bb309321a4') in 0.023064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_16.prefab
+  artifactKey: Guid(569da2b42e54fd344a6a6fc647b9aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_16.prefab using Guid(569da2b42e54fd344a6a6fc647b9aa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913eef362ad096c867138b5b538e2d4c') in 0.025053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_3.prefab
+  artifactKey: Guid(ae40d2945c0e5f049bfc10537a991d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_3.prefab using Guid(ae40d2945c0e5f049bfc10537a991d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1ca1cba58468f03d414ed4c486aeb2') in 0.021396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DestroyedStreet_C.prefab
+  artifactKey: Guid(487ad3b106aac174a94a7d2188de1ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DestroyedStreet_C.prefab using Guid(487ad3b106aac174a94a7d2188de1ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfb183844e01ed07e3c6e340c1f99bd') in 0.021548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_30.prefab
+  artifactKey: Guid(642beb08fbe7b2f42acd594f8b90141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_30.prefab using Guid(642beb08fbe7b2f42acd594f8b90141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb1c8598797c013cb7bc8a8a9631f13') in 0.022572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DestroyedCorner.prefab
+  artifactKey: Guid(c447024ee5f91274f8a4bfcb6cd53115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DestroyedCorner.prefab using Guid(c447024ee5f91274f8a4bfcb6cd53115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17ad6d17a920949b66b5379f712d750') in 0.022950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_GRASS.prefab
+  artifactKey: Guid(13271cd10fa18764bafe002163625cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_GRASS.prefab using Guid(13271cd10fa18764bafe002163625cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9187493ea3c947f93730a2254be6d4') in 0.025279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_33.prefab
+  artifactKey: Guid(e79b8a350a9bcc04cbec9b80509bbf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_33.prefab using Guid(e79b8a350a9bcc04cbec9b80509bbf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a455476a04b38430ae1d941f83b3ab00') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_7.prefab
+  artifactKey: Guid(71a89cb5e25a3cc45842958af4423c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_7.prefab using Guid(71a89cb5e25a3cc45842958af4423c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae485d0267186d07cec4ec59f12891') in 0.019516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_42.prefab
+  artifactKey: Guid(234b9d94690160542801379a4b628978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_BUILDING_42.prefab using Guid(234b9d94690160542801379a4b628978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a673a25465dec37a58370b24a71d9dc') in 0.022105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_10.prefab
+  artifactKey: Guid(0efb2309d2f0ba644a2dfc3e27a6ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_EARTH_10.prefab using Guid(0efb2309d2f0ba644a2dfc3e27a6ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4090773c9fd8e975edcba141d4ad5f') in 0.021596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_Floor_B.prefab
+  artifactKey: Guid(3c67711f486be654c96abc29da8493c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_Floor_B.prefab using Guid(3c67711f486be654c96abc29da8493c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daa29175c2a6ab77c21f28c87a18ede') in 0.021778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_8.prefab
+  artifactKey: Guid(3df0290a7dc18e74fa3773ed717686ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/iPoly3D/The City Ruins/Prefabs/POSTAPO_ENV_DEBRIS_8.prefab using Guid(3df0290a7dc18e74fa3773ed717686ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ed9d37ccfbe5b97f813b31598458f8') in 0.018367 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
