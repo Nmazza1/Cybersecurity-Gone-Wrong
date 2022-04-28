@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/EasyMainMenu/Animations/Loading Screen.meta
 guid: c2e92862fce7f0242ba4644387d79bbf
+========
+guid: 98be6b037f328b8438b72e7ffb1ee8cd
+>>>>>>>> testing:Assets/FreeButtonSet/Scenes.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/EasyMainMenu/Scripts/Main Menu Scripts/Editor.meta
 guid: 960b5797063d7604ba1c8a1ff1bed30c
+========
+guid: dc4a51f945f3d724398e2cf7fceadfc7
+>>>>>>>> testing:Assets/FreeButtonSet.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

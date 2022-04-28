@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637867458209371209
+=======
+      ticks: 637861432587246060
+>>>>>>> testing
     m_Hash: 1143937235
   m_LockFileStatus:
     m_FilePath: C:/Users/fsheh/OneDrive/Documents/GitHub/FinalProject/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637867458219097754
+=======
+      ticks: 637861434110486759
+>>>>>>> testing
     m_Hash: 1907691867
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -205,11 +213,17 @@ m_ResolvedPackages:
     - 3.0.10
     - 3.0.12
     - 3.0.13
+<<<<<<< HEAD
     - 3.0.14
     compatible:
     - 3.0.13
     - 3.0.14
     verified: 3.0.14
+=======
+    compatible:
+    - 3.0.13
+    verified: 3.0.13
+>>>>>>> testing
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -428,12 +442,18 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+<<<<<<< HEAD
     - 2.0.1-exp.1
+=======
+>>>>>>> testing
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+<<<<<<< HEAD
     - 2.0.1-exp.1
+=======
+>>>>>>> testing
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.31
@@ -2675,9 +2695,12 @@ m_ResolvedPackages:
     - 1.1.0-pre.11
     - 1.1.0-pre.41
     - 1.1.0-pre.69
+<<<<<<< HEAD
     - 1.2.0
     - 1.3.1
     - 1.3.2
+=======
+>>>>>>> testing
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -2687,9 +2710,12 @@ m_ResolvedPackages:
     - 1.1.0-pre.11
     - 1.1.0-pre.41
     - 1.1.0-pre.69
+<<<<<<< HEAD
     - 1.2.0
     - 1.3.1
     - 1.3.2
+=======
+>>>>>>> testing
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest

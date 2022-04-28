@@ -15,7 +15,7 @@ public class CharacterMovement : MonoBehaviour
     Camera plyCam;
 
     [SerializeField]
-    [Range(0,5)]
+    [Range(0, 5)]
     float walkSpeed;
     float runSpeed;
     float moveType; // Current speed used, changes if holding sprint or not
@@ -33,24 +33,41 @@ public class CharacterMovement : MonoBehaviour
     bool isGrounded;
     bool isOnWall;
     bool isRunning;
-    bool hasJumped =false;
+    bool isPaused = false;
+    bool hasJumped = false;
     bool hasStamina = true;
     float jumpHeight = 3;
     float stamina = 5;
+    CapsuleCollider playerCol;
+
+
+
+
 
     private void Start()
     {
         moveType = walkSpeed;
         runSpeed = walkSpeed * 2;
+
     }
     void Update()
     {
+
+        if (Time.timeScale == 0)
+        {
+            isPaused = true;
+        }
+        else
+        {
+            isPaused = false;
+        }
+
         // Checks if char. is grounded, resets velocity if so
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         isOnWall = Physics.CheckSphere(wallCheck.position, wallDistance, groundMask);
         staminatxt.text = stamina.ToString();
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = 0;
             hasJumped = false;
@@ -59,13 +76,13 @@ public class CharacterMovement : MonoBehaviour
         // Jump Key
         if ((Input.GetKeyDown(KeyCode.Space) && isGrounded) || (Input.GetKeyDown(KeyCode.Space) && isOnWall && !hasJumped))
         {
-            if(isOnWall)
+            if (isOnWall)
             {
-                velocity.y = Mathf.Sqrt((jumpHeight *2) * -1f * gravity);
+                velocity.y = Mathf.Sqrt((jumpHeight * 2) * -1f * gravity);
                 hasJumped = true;
             }
             velocity.y = Mathf.Sqrt(jumpHeight * -1f * gravity);
-            
+
         }
 
         // Sprint Key with working stamina
@@ -78,8 +95,8 @@ public class CharacterMovement : MonoBehaviour
             {
                 moveType = walkSpeed;
                 hasStamina = false;
-              //  Debug.Log("No Stamina");
-            } 
+                //  Debug.Log("No Stamina");
+            }
         }
         else
         {
@@ -91,7 +108,7 @@ public class CharacterMovement : MonoBehaviour
         {
             stamina += Time.deltaTime;
             hasStamina = true;
-         //  Debug.Log("Regen Stamina");
+            //  Debug.Log("Regen Stamina");
         }
 
         // Change Player speed if crouched
@@ -99,26 +116,26 @@ public class CharacterMovement : MonoBehaviour
         {
             moveType = walkSpeed / 4;
         }
-        
+        if(!isPaused)
+        {
+            // Values to determine look position
 
-        // Values to determine look position
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+            // Creating a move directon variable
+            Vector3 moveDirection = transform.right * x + transform.forward * z;
 
-        // Creating a move directon variable
-        Vector3 moveDirection = transform.right * x + transform.forward * z;
+            // Translating the character controller in the direction created above
+            plyController.Move(moveDirection * moveType * Time.deltaTime);
 
-        // Translating the character controller in the direction created above
-        plyController.Move(moveDirection * moveType * Time.deltaTime);
+            // Keeping track of player velocity to calculate gravity
+            velocity.y += gravity * Time.deltaTime;
 
-        // Keeping track of player velocity to calculate gravity
-        velocity.y += gravity * Time.deltaTime;
+            plyController.Move(velocity * Time.deltaTime);
+        }
 
-        plyController.Move(velocity * Time.deltaTime);
-
-        
-        
-        
     }
 }
+
+
