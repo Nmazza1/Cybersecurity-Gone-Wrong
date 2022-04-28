@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseScript : MonoBehaviour
 
@@ -50,5 +51,10 @@ public class PauseScript : MonoBehaviour
         isPaused = false;
         c.enabled = false;
         s.enabled = true;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
