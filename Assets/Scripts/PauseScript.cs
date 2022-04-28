@@ -39,6 +39,7 @@ public class PauseScript : MonoBehaviour
     }
     public void Pause()
     {
+        Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
         isPaused = true;
         c.enabled = true;
@@ -47,6 +48,7 @@ public class PauseScript : MonoBehaviour
 
     public void Resume()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
         isPaused = false;
         c.enabled = false;
