@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class MenuSceneBehaviour : MonoBehaviour
 {
 
     public void LoadGame()
     {
-        EditorSceneManager.LoadScene("MainWorld");
+        SceneManager.LoadScene("MainWorld");
     }
 
     public void QuitGame()
@@ -21,17 +21,5 @@ public class MenuSceneBehaviour : MonoBehaviour
 
     }
 
-
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
 
