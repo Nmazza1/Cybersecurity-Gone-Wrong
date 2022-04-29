@@ -9,12 +9,12 @@ public class PauseScript : MonoBehaviour
     // C = is pause menu
     // S = status menu
     [SerializeField]
-    Canvas pauseCanvas, statusCanvas;
+    Canvas c, s;
 
 
 
     public bool isPaused = false;
-   
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -42,8 +42,8 @@ public class PauseScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
         isPaused = true;
-        pauseCanvas.enabled = true;
-        statusCanvas.enabled = false;
+        c.enabled = true;
+        s.enabled = false;
     }
 
     public void Resume()
@@ -51,18 +51,12 @@ public class PauseScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
         isPaused = false;
-        pauseCanvas.enabled = false;
-        statusCanvas.enabled = true;
+        c.enabled = false;
+        s.enabled = true;
     }
 
     public void QuitGame()
     {
         Application.Quit();
-    }
-
-    public void BackToMenu()
-    {
-        SceneManager.LoadScene("Menu_Scene");
-        
     }
 }
