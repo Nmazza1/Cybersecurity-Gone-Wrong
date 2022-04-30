@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SlimUI/Modern Menu 1/Scenes/Menu_Scene_Legacy.unity
+- path: Assets/Scenes/MainWorld.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
